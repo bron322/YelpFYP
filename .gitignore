@@ -1,0 +1,94 @@
+# ==================
+# Python
+# ==================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# ==================
+# Virtual environments
+# ==================
+venv/
+.venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# ==================
+# Jupyter
+# ==================
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+# Jupyter config
+.jupyter/
+# Hidden kernel / runtime files
+*.json
+*.sqlite
+*.pyre/
+
+# ==================
+# Logs & cache
+# ==================
+*.log
+*.pot
+*.mo
+*.cache/
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# ==================
+# Data (keep large raw data out of GitHub!)
+# ==================
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
+*.h5
+*.tar
+*.tgz
+*.gz
+*.zip
+
+# ==================
+# OS-specific
+# ==================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Linux
+*~
+
+# ==================
+# VS Code
+# ==================
+.vscode/
+.history/
+*.code-workspace
+
+# ==================
+# OneDrive (avoid syncing conflicts)
+# ==================
+*.tmp
+~$*
