@@ -268,7 +268,7 @@ Some current limitations of the repository include:
 
 ## Author
 
-**Jing Jie Lim**
+**Lim Jing Jie**
 Final Year Project on mobility-aware restaurant recommendation using Yelp data.
 
 ---
@@ -276,5 +276,3 @@ Final Year Project on mobility-aware restaurant recommendation using Yelp data.
 ## License
 
 This project is licensed under the terms of the license provided in this repository.
-
-```
