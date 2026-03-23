@@ -253,15 +253,6 @@ Typical outputs include:
 * model comparison summaries
 * baseline vs mobility-aware performance differences
 
-You can update this section with your final reported metrics once your experiments are finalized.
-
-Example:
-
-* **Evaluated users:** *[fill in]*
-* **Top-K:** *[fill in]*
-* **Baseline score:** *[fill in]*
-* **Mobility-aware score:** *[fill in]*
-
 ---
 
 ## Limitations
@@ -272,19 +263,6 @@ Some current limitations of the repository include:
 * not all experiments are packaged into a single end-to-end script
 * some file naming reflects iterative work done during the project
 * results depend on the filtered Yelp subset and preprocessing choices
-
----
-
-## Future Improvements
-
-Possible future extensions include:
-
-* converting notebook logic into reusable Python modules
-* adding a full `requirements.txt`
-* adding a single end-to-end experiment runner
-* improving documentation for each notebook
-* integrating the outputs into a dashboard or interactive system
-* extending the comparison with more baseline recommenders
 
 ---
 
