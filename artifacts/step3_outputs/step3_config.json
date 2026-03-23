@@ -1,0 +1,12 @@
+{
+  "top_n": 100,
+  "sparse_fallback_radius_km": 10.0,
+  "radius_rule": "base = clip(2 * travel_range_km, low=3, high=20); two_area=1.2x; explorer=1.5x; sparse=10",
+  "hub_rule": {
+    "one_area": 1,
+    "two_area": 2,
+    "explorer": 3,
+    "sparse": 0
+  },
+  "scoring_rule": "score = log1p(visit_count) - 0.1 * distance_km"
+}

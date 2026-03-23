@@ -1,0 +1,26 @@
+{
+  "eps_km": 5.0,
+  "min_samples": 3,
+  "min_visits": 5,
+  "sparse_min_visits": 8,
+  "sparse_min_unique_businesses": 3,
+  "sparse_min_unique_points": 3,
+  "sparse_min_clustered_share": 0.5,
+  "n_users_profiled": 1159,
+  "label_counts": {
+    "sparse": 585,
+    "one_area": 256,
+    "explorer": 237,
+    "two_area": 81
+  },
+  "label_percentages": {
+    "sparse": 50.47,
+    "one_area": 22.09,
+    "explorer": 20.45,
+    "two_area": 6.99
+  },
+  "median_travel_range_km": 1.479974617586789,
+  "median_hub_dist_km_two_area": 13.205860594265705,
+  "median_noise_ratio": 0.2,
+  "median_max_dist_from_primary_hub_km": 3.1840702568106645
+}

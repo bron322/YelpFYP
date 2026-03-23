@@ -1,0 +1,10 @@
+{
+  "evaluation_type": "leave_one_out",
+  "evaluated_users": 1159,
+  "candidate_budget": 100,
+  "models": [
+    "global_popularity",
+    "mobility_aware"
+  ],
+  "notes": "Mobility-aware retriever uses Step 2 mobility labels and Step 3 hub-aware gating with personalized radius."
+}
